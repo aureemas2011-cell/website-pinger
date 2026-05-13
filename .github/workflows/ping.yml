@@ -2,9 +2,8 @@ name: Scheduled Website Ping
 
 on:
   schedule:
-    # This syntax means: "Every 5 minutes"
     - cron: '*/5 * * * *'
-  workflow_dispatch: # This allows you to run it manually to test
+  workflow_dispatch: 
 
 jobs:
   ping:
